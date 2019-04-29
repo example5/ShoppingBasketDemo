@@ -12,6 +12,7 @@ namespace ShoppingBasketDemo.Logging
     {
         public void Log(ShoppingBasket basket)
         {
+            //aaaaa
             var itemsInBasket = basket.GetAllItems();
             Console.WriteLine("Items:");
             foreach (var item in itemsInBasket)
